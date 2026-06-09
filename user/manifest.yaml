@@ -8,7 +8,7 @@ metadata:
     tier: backend
     component: user
 data:
-  REDIS_HOST: "redis://<REDIS-IP-ADDRESS>:6379"
+  REDIS_HOST: "redis:6379"
   MONGO_URL: "mongodb://<MONGODB-SERVER-IP-ADDRESS>:27017/users"
   MONGO: "true"
 ---
